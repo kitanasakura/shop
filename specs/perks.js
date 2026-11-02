@@ -1,3 +1,5 @@
+// ==== specs/perks — edit the markdown between the backticks. Don't type a backtick (`) or ${ in your text. ====
+SPEC("perks", String.raw`
 # Perks strip (bottom of every page)
 <!-- icon can be an emoji or an image file in /images/ -->
 
@@ -12,3 +14,4 @@
 
 ## A Small Shop with Big Love
 - icon: 🌱
+`);

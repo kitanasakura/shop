@@ -1,3 +1,5 @@
+// ==== specs/featured — edit the markdown between the backticks. Don't type a backtick (`) or ${ in your text. ====
+SPEC("featured", String.raw`
 # Featured collection
 <!-- Settings first, then one "##" per arch card. "link" is optional (defaults to the shop page) -->
 
@@ -16,3 +18,4 @@
 ## My Melody
 - image: featured-mymelody.jpg
 - link: /shop.html?item=my-melody-holiday-plush
+`);

@@ -1,3 +1,5 @@
+// ==== specs/inventory — edit the markdown between the backticks. Don't type a backtick (`) or ${ in your text. ====
+SPEC("inventory", String.raw`
 # Inventory
 <!--
 HOW TO ADD A PRODUCT: copy one block below, paste it at the bottom, edit it. That's it.
@@ -42,3 +44,4 @@ Images can also be full URLs (https://...).
 - images: pompompurin-1.jpg
 - stock: out
 - description: Pompompurin snoozing in a Santa hat.
+`);

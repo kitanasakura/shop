@@ -1,3 +1,5 @@
+// ==== specs/site — edit the markdown between the backticks. Don't type a backtick (`) or ${ in your text. ====
+SPEC("site", String.raw`
 # Site settings
 <!-- Global settings. Edit the text after each colon. Image names refer to files in /images/ -->
 
@@ -10,3 +12,4 @@
 - order_email: hello@example.com
 <!-- Optional: paste a Stripe/PayPal/Shopify payment link to use instead of email checkout -->
 - checkout_url:
+`);

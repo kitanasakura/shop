@@ -1,3 +1,5 @@
+// ==== specs/promo — edit the markdown between the backticks. Don't type a backtick (`) or ${ in your text. ====
+SPEC("promo", String.raw`
 # Gift banner + newsletter
 <!-- form_action: paste a Formspree / Buttondown / Mailchimp form URL. Leave empty to hide the signup. -->
 
@@ -10,3 +12,4 @@
 - email_placeholder: Enter your email
 - subscribe_text: Subscribe
 - form_action:
+`);

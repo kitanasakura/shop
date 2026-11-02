@@ -1,3 +1,5 @@
+// ==== specs/nav — edit the markdown between the backticks. Don't type a backtick (`) or ${ in your text. ====
+SPEC("nav", String.raw`
 # Navigation
 <!-- One "##" per menu link. "dropdown: categories" adds a menu built from categories.md -->
 
@@ -16,3 +18,4 @@
 
 ## Contact
 - url: /contact.html
+`);

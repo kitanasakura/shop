@@ -20,3 +20,7 @@ window.parseSpec = function (raw) {
   out.items.forEach(function (i) { i.text = i._t.join("\n"); delete i._t; });
   return out;
 };
+
+/* Spec registry: each specs/*.js file calls SPEC("name", `markdown`) */
+window.SPECS = {};
+window.SPEC = function (name, text) { window.SPECS[name] = text; };
