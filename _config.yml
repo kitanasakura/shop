@@ -1,0 +1,13 @@
+# ---- Jekyll / GitHub Pages config ----
+title: Fluffy Meadow
+description: Japanese plushies & more
+# User/organisation site (you.github.io):   baseurl: ""
+# Project site (you.github.io/my-repo):     baseurl: "/my-repo"
+baseurl: ""
+url: ""
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
