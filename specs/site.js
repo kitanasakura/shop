@@ -3,8 +3,8 @@ SPEC("site", String.raw`
 # Site settings
 <!-- Global settings. Edit the text after each colon. Image names refer to files in /images/ -->
 
-- name: Fluffy Meadow
-- tagline: japanese plushies & more ♡
+- name: Kitana Sakura Shop
+- tagline: kawaii plushies & more ♡
 - logo: logo.png
 - announcement: ★ Free shipping on orders over $75! ♡ Holiday orders are open! ★
 - currency: $

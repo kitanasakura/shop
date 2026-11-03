@@ -4,20 +4,24 @@ SPEC("categories", String.raw`
 <!-- Round icons under the hero. The "##" title must match the "category:" used in inventory.md -->
 
 ## Sanrio
-- icon: cat-sanrio.png
+- icon: sanrio.png
 
-## Rilakkuma
-- icon: cat-rilakkuma.png
 
 ## Chiikawa
-- icon: cat-chiikawa.png
+- icon: chiikawa.png
 
-## Cinnamoroll
-- icon: cat-cinnamoroll.png
 
-## Pompompurin
-- icon: cat-pompompurin.png
+## Rilakkuma
+- icon: rilakkuma.png
 
-## My Melody
-- icon: cat-mymelody.png
+
+## Mikko
+- icon: cat-mikko.png
+
+
+## Mofusand
+- icon: cat-mofusand.png
+
+## Disney
+- icon: cat-disney.png
 `);
